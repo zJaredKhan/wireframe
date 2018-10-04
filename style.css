@@ -1,0 +1,51 @@
+* {
+    margin: 15px;
+}
+
+header {
+    background-color: #444;
+    width: 100%;
+}
+
+header div {
+    width: 960px;
+    margin: 0,auto;
+    display: inline-flex;
+}
+
+ul {
+    display: inline-flex;
+}
+
+body img{
+    margin:15px;
+    border-image-width: 0px;
+    display: inline;
+}
+
+article{
+    display: inline-block;
+}
+
+article h2{
+    font-size: 14;
+    font-weight: bold;
+}
+
+article div{
+    display: inline-block;
+    overflow: scroll;
+    width: 480px;
+    height: 400px;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    border-radius: 12px;
+}
+button:hover {
+    transition: background-color 0.325s ease;
+    background-color: #234;
+
+}
